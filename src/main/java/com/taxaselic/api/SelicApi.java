@@ -21,7 +21,7 @@ public class SelicApi {
 	public List<SelicResponse> obterTodos(){
 	
 	 String urlBase = "https://api.bcb.gov.br/dados/serie/bcdata.sgs.11/dados?formato=json";
-	 System.out.println("passei!");
+	 System.out.println("Passou!");
 		HttpHeaders header =  new HttpHeaders();
 		header.set("ContentType","application/json");
 		HttpEntity<String> entity = new HttpEntity<>(header);
